@@ -4,7 +4,7 @@ import styles from '@/app/components/Landing.module.css'
 const Landing = () => {
   return (
     <>
-        <div className={styles.Landing}>
+        <main className={styles.main.module}>
             <h3>How does NutriFy work?</h3>
             <div>
                 <span>
@@ -19,7 +19,7 @@ const Landing = () => {
                 <button>Learn More</button>
             </div>
 
-        </div>
+        </main>
     </>
   )
 }

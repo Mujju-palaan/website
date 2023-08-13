@@ -1,9 +1,9 @@
-import React from 'react'
+import AboutusPage from '../components/aboutuspage/AboutusPage'
 
 const Aboutus = () => {
   return (
     <>
-    <div>Aboutus</div>
+    <AboutusPage></AboutusPage>
     
     </>
   )
