@@ -1,2 +1,17 @@
 .main {height: 75vh; width: auto;}
 
+.imgsec{
+    height: 100%;
+    width: 100%;
+    display: flexbox;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+/* .blackbtn{
+    opacity: 3;
+    border-radius: 0%;
+} */
+.conatiner{
+   padding-top: 8rem;
+}
