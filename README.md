@@ -1,5 +1,14 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
+IF YOU ARE NEW TO REACT THEN FIRST OF ALL DOWNLOAD 
+1) INSALL NODE.JS (Stable Version)
+2) Install GitHub (after installING  github)
+3) Open CMD and go to the flie directory where yiu wanna clone the file (for ex in Documents Folder)
+4)After accessing Document Foler from CMD
+5)Type --->  gitclone <gitcode>
+6)After Cloning
+7)cd website (you will enter fill directory)
+8)npm install (it will install all packages)
+9)npm run dev (website will open in 3000port)
 ## Getting Started
 
 First, run the development server:
