@@ -1,17 +1,41 @@
-.main {height: 75vh; width: auto;}
+.main {height: 75vh; 
+    width: auto;
+
+}
 
 .imgsec{
-    height: 100%;
+    height: 90%;
     width: 100%;
-    display: flexbox;
-    display: flex;
-    justify-content: space-around;
-    align-items: center; 
 }
 /* .blackbtn{
     opacity: 3;
     border-radius: 0%;
 } */
 .conatiner{
-   padding-top: 8rem;
+   padding: 15rem 0rem 0rem 8rem;
 }
+
+/* ******************************************************** */
+
+.part1{
+    display: flex;
+    padding: 0rem 0 5rem 0;
+}
+.part1_content{
+    width: 60%;
+    padding: 10rem 4rem 0 20rem;
+}
+.part1_content h2{
+    font-size: 6rem;
+}
+.part1_content p{
+    font-size: 2rem;
+    color: rgba(47, 45, 46, 0.48);
+}
+
+/* ******************************************************** */
+/* .part2{
+    display: flex;
+    padding: 5rem 0 5rem 0;
+} */
+

@@ -1,8 +1,11 @@
+import AboutUs from '@/app/components/AboutUs/AboutUs'
 import React from 'react'
 
 const AboutusPage = () => {
   return (
-    <h2>Mujju</h2>
+    <>
+      <AboutUs/>
+    </>
   )
 }
 

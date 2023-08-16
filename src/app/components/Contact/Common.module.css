@@ -1,5 +1,5 @@
 .section{
-    /*background-color: red;*/
+    /*background-color: red;*/ 
 }
 
 .container{
@@ -125,7 +125,7 @@
 
 
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 780px) { 
     .grid{
         display: grid;
         grid-template-columns: 1fr;

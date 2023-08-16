@@ -1,8 +1,10 @@
-import React from 'react'
+import PricingPage from "../Container/Pricingpage/Pricingpage"
 
 const Pricing = () => {
-  return (
-    <h1>Pricing</h1>
+  return (     
+		<>
+      <PricingPage/>
+    </>
   )
 }
 

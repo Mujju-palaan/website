@@ -19,7 +19,7 @@ const Nav = () => {
                             >Home</Link>
                         </li>
                         <li className={styles.navbarItem}>
-                            <Link className={styles.navbarLink} href="/aboutus"
+                            <Link className={styles.navbarLink} href="/about"
                                   onClick={() => setOpenMenu(false)}
                             >About</Link>
                         </li>

@@ -1,0 +1,27 @@
+.main{
+    display: flex;
+}
+.content{
+    width: 60%;
+    padding: 5rem 8rem 0 16rem;
+}
+.content p{
+    color: grey;
+    font-weight: bold;
+}
+.content h2{
+    font-style: normal;
+    font-size: 4rem;
+}
+.content p1{
+    color: grey;
+    font-size: 2rem;
+}
+.btn{
+    padding: 5rem 0 0 0;
+}
+
+.img img{
+    text-align: center;
+    border-radius: 20px;
+}
