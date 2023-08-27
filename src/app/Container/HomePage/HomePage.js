@@ -56,7 +56,7 @@ const HomePage = () => {
               content={`Our experienced medical professionals put your healing needs first. We are proud to 
           provide a high-quality level of customer service, medical experience, and commitment to 
           health and wellness to all our patients. Our goal is to make you feel better as quickly as possible.`}
-              Images="/img1.jpg"
+              Images="/prog_weightloss.jpg"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -65,7 +65,7 @@ const HomePage = () => {
               content={`Our experienced medical professionals put your healing needs first. We are proud to 
           provide a high-quality level of customer service, medical experience, and commitment to 
           health and wellness to all our patients. Our goal is to make you feel better as quickly as possible.`}
-              Images="/img1.jpg"
+              Images="/prog_weightgain.jpg"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -74,7 +74,7 @@ const HomePage = () => {
               content={`Our experienced medical professionals put your healing needs first. We are proud to 
           provide a high-quality level of customer service, medical experience, and commitment to 
           health and wellness to all our patients. Our goal is to make you feel better as quickly as possible.`}
-              Images="/img1.jpg"
+              Images="/prog_diabeties.jpg"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -83,7 +83,7 @@ const HomePage = () => {
               content={`Our experienced medical professionals put your healing needs first. We are proud to 
           provide a high-quality level of customer service, medical experience, and commitment to 
           health and wellness to all our patients. Our goal is to make you feel better as quickly as possible.`}
-              Images="/img1.jpg"
+              Images="/prog_pcod.jpg"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -92,7 +92,7 @@ const HomePage = () => {
               content={`Our experienced medical professionals put your healing needs first. We are proud to 
           provide a high-quality level of customer service, medical experience, and commitment to 
           health and wellness to all our patients. Our goal is to make you feel better as quickly as possible.`}
-              Images="/img1.jpg"
+              Images="/prog_health.jpg"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -101,7 +101,7 @@ const HomePage = () => {
               content={`Our experienced medical professionals put your healing needs first. We are proud to 
           provide a high-quality level of customer service, medical experience, and commitment to 
           health and wellness to all our patients. Our goal is to make you feel better as quickly as possible.`}
-              Images="/img1.jpg"
+              Images="/prog_pragnent.jpg"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -110,7 +110,7 @@ const HomePage = () => {
               content={`Our experienced medical professionals put your healing needs first. We are proud to 
           provide a high-quality level of customer service, medical experience, and commitment to 
           health and wellness to all our patients. Our goal is to make you feel better as quickly as possible.`}
-              Images="/img1.jpg"
+              Images="/prog_wedding.jpg"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -119,7 +119,7 @@ const HomePage = () => {
               content={`Our experienced medical professionals put your healing needs first. We are proud to 
           provide a high-quality level of customer service, medical experience, and commitment to 
           health and wellness to all our patients. Our goal is to make you feel better as quickly as possible.`}
-              Images="/img1.jpg"
+              Images="/prog_monopause.jpg"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -128,7 +128,7 @@ const HomePage = () => {
               content={`Our experienced medical professionals put your healing needs first. We are proud to 
           provide a high-quality level of customer service, medical experience, and commitment to 
           health and wellness to all our patients. Our goal is to make you feel better as quickly as possible.`}
-              Images="/img1.jpg"
+              Images="/prog_kidsdiet.jpg"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -137,7 +137,7 @@ const HomePage = () => {
               content={`Our experienced medical professionals put your healing needs first. We are proud to 
           provide a high-quality level of customer service, medical experience, and commitment to 
           health and wellness to all our patients. Our goal is to make you feel better as quickly as possible.`}
-              Images="/img1.jpg"
+              Images="/prog_fastfit.jpg"
             />
           </SwiperSlide>
 
