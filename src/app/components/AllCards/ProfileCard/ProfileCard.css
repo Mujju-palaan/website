@@ -1,0 +1,93 @@
+.profilecard {
+  max-width: 50rem;
+  border-radius: 1rem;
+  background-color: rgba(31, 41, 55, 1);
+  padding: 2rem;
+}
+
+.profileinfos {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  grid-gap: 1rem;
+  gap: 2.5rem;
+}
+
+.profileimage {
+  height: 12rem;
+  width:12rem;
+  border-radius: 0.5rem;
+  background-color: rgb(118, 36, 194);
+  background: linear-gradient(to bottom right, rgb(118, 36, 194), rgb(185, 128, 240));
+}
+
+.profileinfo {
+  height: 7rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.profilename {
+  font-size: 2.5rem;
+  line-height: .25rem;   
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  margin: 10px 20px 20px 0;
+  
+}
+
+.profilefunction {
+  font-size: 1.5rem;
+  line-height: 1.25rem;
+  color: rgba(156, 163, 175, 1);
+  margin: 0 0 15px 0;
+
+}
+
+.profilestats {
+  width: 100%;
+  border-radius: 0.5rem;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.5rem;
+  line-height: 0.5rem;
+  color: rgba(0, 0, 0, 1);
+  margin-top: 0px;
+
+  
+}
+
+.profileflex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 4px;
+}
+
+.profilestate-value {
+  font-weight: 700;
+  color: rgb(118, 36, 194);
+}
+
+.profilerequest {
+  margin-top: 1.5rem;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  transition: all .3s ease;
+  background-color: #fff;
+  color: black;
+}
+
+.profilerequest:hover {
+  background-color: rgb(118, 36, 194);
+  color: #fff;
+}

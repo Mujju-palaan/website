@@ -1,4 +1,4 @@
-import styles from '@/app/components/Card/HealthgoalCard/HealthgoalCard.module.css'
+import styles from '@/app/components/AllCards/HealthgoalCard/HealthgoalCard.module.css'
 
 const HealthgoalCard = () => {
   return (

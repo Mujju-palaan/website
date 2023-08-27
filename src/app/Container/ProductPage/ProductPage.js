@@ -1,7 +1,8 @@
 "use client"
-import Card from "@/app/components/Card/Card"
-import MotionCard from "@/app/components/Card/MotionCard/MotionCard"
-import PriceItemCard from "@/app/components/Card/PriceItemCard/PriceItemCard"
+import Card from "@/app/components/AllCards/Card"
+import MotionCard from "@/app/components/AllCards/MotionCard/MotionCard"
+import PriceItemCard from "@/app/components/AllCards/PriceItemCard/PriceItemCard"
+import FlipperCard from "@/app/components/AllCards/FlipperCard/FlipperCard"
 
 const ProductPage = () => {
   return (
@@ -23,6 +24,8 @@ const ProductPage = () => {
       <PriceItemCard></PriceItemCard>
       </div>
       <MotionCard/>
+      <MotionCard/>
+      <FlipperCard />
     </>
   )
 }

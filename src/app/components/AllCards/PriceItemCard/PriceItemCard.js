@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '@/app/components/Card/PriceItemCard/PriceItemCard.module.css'
+import styles from '@/app/components/AllCards/PriceItemCard/PriceItemCard.module.css'
 import {BsThreeDots} from "react-icons/bs";
 import { AiFillHeart } from 'react-icons/ai';
 import { BsCurrencyDollar } from 'react-icons/bs';

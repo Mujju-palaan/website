@@ -1,18 +1,16 @@
-import styles from '@/app/components/Card/Card.module.css'
+import styles from '@/app/components/AllCards/Card.module.css'
 
-const Card = () => {
+const Card = (props) => {
   return (
     <>
     <div className={styles.main}>
         <div className={styles.card}>
             {/* <Image src='/nutritionist.png'></Image> */}
-            <img style={{objectFit: 'fit', margin:'1rem', borderRadius:'4px'}}
-                 src='/img1.jpg' height={300} width={340}></img>
+            <img className={styles.imgs} style={{objectFit: 'cover', margin:'1rem'}}
+                 src={props.Images} height={220} width={320}></img>
             <div className={styles.card_content}>
-                <h2 style={{fontSize:'2rem'}}>Our Health Mission</h2>
-                <p>Our experienced medical professionals put your healing needs first. We are proud to 
-                    provide a high-quality level of customer service, medical experience, and commitment to 
-                    health and wellness to all our patients. Our goal is to make you feel better as quickly as possible.
+                <h2 style={{fontSize:'2rem', textAlign:'center'}}>{props.title}</h2>
+                <p>{props.content}
                 </p>
             </div>
             

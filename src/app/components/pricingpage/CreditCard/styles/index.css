@@ -13,7 +13,7 @@ body {
 	background: var(--White);
 }
 
-body::after {
+/* body::after {
 	content: '';
 	background-image: url('../assets/bg-main-desktop.png');
 	background-size: cover;
@@ -24,7 +24,7 @@ body::after {
 	left: 0;
 	z-index: -100;
 	transition: width 0.35s ease-in-out, height 0.35s ease-in-out;
-}
+} */
 
 .body-slider::after {
 	width: 100%;

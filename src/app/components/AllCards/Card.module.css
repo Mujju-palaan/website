@@ -1,16 +1,20 @@
 .main{
     display: flex;
-    padding: 4rem;   
+    padding: 3rem;   
 }
-.card:hover {
+/* .card:hover {
     transform: scale(1.1);
-  }
-
+  } */
+.imgs{
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    object-fit: cover;
+}
 .card{
     transition: transform 0.5s;
     box-shadow: inset;
     height: auto;
-    width: 36rem;
+    width: 34rem;
     box-shadow: darkslategray;
     
     border: 1px solid rgb(216, 215, 215);
