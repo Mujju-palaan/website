@@ -1,7 +1,10 @@
+"use client"
+import React from 'react';
 import Footer from './components/Header&Footer/Footer'
 import Header from './components/Header&Footer/Header'
 import './globals.css'
 import { Inter } from 'next/font/google'
+import { Auth0Provider } from '@auth0/auth0-react';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -13,10 +16,20 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Auth0Provider
+        domain="sehat-nutrition.us.auth0.com"
+        clientId="fBik1CI7kj0ZMpNswpne5z6OLAzDx5KD"
+        authorizationParams={{
+        redirect_uri: window.location.origin
+        }}
+      >
       <body className={inter.className}>
+        
+       
         <Header></Header>
         {children}</body>
         <Footer></Footer>
+        </Auth0Provider>,
     </html>
   )
 }
