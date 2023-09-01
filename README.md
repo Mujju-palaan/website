@@ -8,7 +8,7 @@ IF YOU ARE NEW TO REACT THEN FIRST OF ALL DOWNLOAD
 6) After Cloning  
 7) cd website (you will enter fill directory)  
 8) npm install (it will install all packages)  
-9) npm run dev (website will open in 3000port)  
+9) npm run dev (website will open in 3000port open the link ---> http://localhost:3000)  
 ## Getting Started
 
 First, run the development server:
