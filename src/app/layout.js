@@ -16,6 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <body className={inter.className}>
       <Auth0Provider
         domain="sehat-nutrition.us.auth0.com"
         clientId="fBik1CI7kj0ZMpNswpne5z6OLAzDx5KD"
@@ -23,13 +24,14 @@ export default function RootLayout({ children }) {
         redirect_uri: window.location.origin
         }}
       >
-      <body className={inter.className}>
+      
         
        
         <Header></Header>
-        {children}</body>
+        {children}
         <Footer></Footer>
         </Auth0Provider>,
+        </body>
     </html>
   )
 }

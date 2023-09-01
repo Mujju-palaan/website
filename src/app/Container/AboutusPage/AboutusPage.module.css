@@ -1,0 +1,22 @@
+.container{
+    margin: 2rem;
+    padding: 6rem;
+}
+.flex{
+    display: flex;
+}
+.size{
+    height: 450px;
+    width: 600px;
+}
+.content{
+    margin: 2rem;
+    padding: 4rem;
+}
+
+/* *******************TEAM************************ */
+
+.teamcontainer{
+    font-weight: normal;
+    padding: 2rem;
+}

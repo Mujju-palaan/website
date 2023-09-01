@@ -37,9 +37,9 @@ const Nav = () => {
               <Link
                 className={styles.navbarLink}
                 onClick={() => setOpenMenu(false)}
-                href="/product"
+                href="/pricing"
               >
-                Product
+                Pricing
               </Link>
             </li>
             <li className={styles.navbarItem}>
@@ -51,13 +51,15 @@ const Nav = () => {
                 Contact
               </Link>
             </li>
-            {isAuthenticated && <h3>Hello ! {user.name}</h3>}
+            <li>
+            {isAuthenticated && <h3>Hello {user.name}</h3>}
+            </li>
             {isAuthenticated ? (
               <li>
                 <button
                   onClick={() =>
                     logout({
-                      logoutParams: { returnTo: window.location.origin },
+                      logoutParams: { returnTo: window.location.origin }
                     })
                   }
                 >
@@ -70,6 +72,17 @@ const Nav = () => {
               </li>
             )}
 
+            <li>
+              <button
+                onClick={() =>
+                  logout({
+                    logoutParams: { returnTo: window.location.origin },
+                  })
+                }
+              >
+                Log Out
+              </button>
+            </li>
           </ul>
 
           {/* //nav icon */}

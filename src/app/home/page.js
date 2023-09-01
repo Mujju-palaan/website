@@ -6,13 +6,7 @@ const Home = () => {
   return (
     <>
       <HomePage/>
-      <h1> Click her
-      <Button href="/pricing">PricingPage</Button>
-      </h1>
-      <br></br><br/>
-      <h1> Click her
-      <Button href="/animation">AminationPage</Button>
-      </h1>
+      
     </>
   )
 }

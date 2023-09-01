@@ -33,6 +33,12 @@ import Wallet from "../Container/AanimationFiles/Wallet"
 import WomenWithVR from "../Container/AanimationFiles/WomenWithVR"
 import WomenYoga from "../Container/AanimationFiles/WomenYoga"
 import YogaPose from "../Container/AanimationFiles/YogaPose"
+import Girl_running from "../Container/AanimationFiles/girl_running"
+import Boy_uptodown_exercise from "../Container/AanimationFiles/boy_uptodown_exercise"
+import Boy_doing_lunges from "../Container/AanimationFiles/boy_doing_lunges"
+import Lady_exersice_onball from "../Container/AanimationFiles/lady_exersice_onball"
+import Boywith_dumbbles from "../Container/AanimationFiles/boywith_dumbbles"
+import DietPlan from "../Container/AanimationFiles/DietPlan"
 
 const Animation = () => {
   return (
@@ -41,7 +47,8 @@ const Animation = () => {
             <Message/><BotWatchingStats/><BoyWalkingwithPhone/><Catfood/><Chating/><Creditcard/><CreditCard1/><Files/><GirlCycling/>
             <Graph/><Hands/><HealthNotes/><HeartRate/><Karate/><LocationIcon/><MeetingInterface/><Mobilemessage/><MobilePosts/>
             <MobileShippingDone/><MsgSent/><MulipleSearch/><Oops404/><PhoneCall/><PremiumIcon/><Review4star/><RobotWavingHand/>
-            <Sheild/><Shipment/><Tutor/><USAflag/><Wallet/><WomenWithVR/><WomenYoga/><YogaPose/>
+            <Sheild/><Shipment/><Tutor/><USAflag/><Wallet/><WomenWithVR/><WomenYoga/><YogaPose/><Girl_running/><Boy_uptodown_exercise/>
+            <Boy_doing_lunges/><Lady_exersice_onball/><Boywith_dumbbles/><DietPlan/>
         </div>
     </>
   )
