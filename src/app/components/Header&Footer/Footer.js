@@ -2,6 +2,9 @@ import React from 'react';
 import footerStyles from '@/app/styles/footer.module.css'
 import { FaFacebookF, FaTwitter,FaInstagram,FaLinkedinIn,FaYoutube } from "react-icons/fa";
 import Link from "next/link";
+import { MdLocationOn } from 'react-icons/md';
+import { AiFillPhone } from 'react-icons/ai';
+import { AiOutlineMail } from 'react-icons/ai';
 
 
 export const metadata = {
@@ -23,47 +26,56 @@ const Footer = () => {
                             <span className={footerStyles.logo_name}>SEHAT</span>
                         </div>
                         <div className={footerStyles[`media-icons`]}>
-                            <Link href="#"><i > <FaFacebookF/> </i></Link>
-                            <Link href="#"><i > <FaTwitter/> </i> </Link>
+                            <Link href="https://www.facebook.com" target="_blank"><i > <FaFacebookF/> </i></Link>
+                            <Link href="https://www.twitter.com" target="_blank"><i > <FaTwitter/> </i> </Link>
                             <Link href="https://www.instagram.com" target="_blank"><i > <FaInstagram/>  </i></Link>
-                            <Link href="#"><i > <FaLinkedinIn /> </i></Link>
-                            <Link href="#"><i > <FaYoutube />  </i></Link>
+                            <Link href="https://www.linkedin.com" target="_blank"><i > <FaLinkedinIn /> </i></Link>
+                            <Link href="https://www.youtube.com" target="_blank"><i > <FaYoutube />  </i></Link>
                         </div>
                     </div>
                     <div className={footerStyles['link-boxes']}>
                         <ul className={footerStyles.box}>
                             <li className={footerStyles.link_name}>Company</li>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Contact us</a></li>
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">Get started</a></li>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/contactus">Contact us</a></li>
+                            <li><a href="/about">About us</a></li>
+                            <li><a href="/pricing">Pricing</a></li>
+                            <li><a href="faqs">FAQ's</a></li>
                         </ul>
                         <ul className={footerStyles.box}>
-                            <li className={footerStyles.link_name}>Services</li>
-                            <li><a href="#">App design</a></li>
-                            <li><a href="#">Web design</a></li>
-                            <li><a href="#">Logo design</a></li>
-                            <li><a href="#">Banner design</a></li>
+                            <li className={footerStyles.link_name}>Our Services</li>
+                            <li><a href="#">Personalized Nutrition</a></li>
+                            <li><a href="#">Balance Body & Mind</a></li>
+                            <li><a href="#">Child Nutrition</a></li>
+                            <li><a href="#">Fitness Performance</a></li>
+                            <li><a href="#">Weight Loss Programs</a></li>
+                        </ul>
+                        
+                        <ul className={footerStyles.box}>
+                            <li className={footerStyles.link_name}>Policy</li>
+                            <li><a href="/termscondition">Terms & Condition</a></li>
+                            <li><a href="/cancellationRefund">Cancellation & Refund</a></li>
+                            <li><a href="/privacypolicy">Privacy & Policy</a></li>
+                            {/* <li><a href="#">Photoshop</a></li> */}
                         </ul>
                         <ul className={footerStyles.box}>
-                            <li className={footerStyles.link_name}>Account</li>
-                            <li><a href="#">Profile</a></li>
-                            <li><a href="#">My account</a></li>
-                            <li><a href="#">Prefrences</a></li>
-                            <li><a href="#">Purchase</a></li>
-                        </ul>
-                        <ul className={footerStyles.box}>
-                            <li className={footerStyles.link_name}>Courses</li>
-                            <li><a href="#">HTML & CSS</a></li>
-                            <li><a href="#">JavaScript</a></li>
-                            <li><a href="#">Photography</a></li>
-                            <li><a href="#">Photoshop</a></li>
+                            <li className={footerStyles.link_name}>Contact Us</li>
+                            <li> 
+                                <MdLocationOn style={{color:'whitesmoke', marginRight:'1rem'}}/>
+                                <a href="#">Address</a></li>                            
+                            <li>
+                                <AiFillPhone style={{color:'whitesmoke', marginRight:'1rem'}}/> 
+                            <a href="#">+1 MObile No.</a></li>
+                            <li>
+                                <AiOutlineMail style={{color:'whitesmoke', marginRight:'1rem'}}/>
+                                <a href="#">Support@sehatdiets.com</a></li>
                         </ul>
                         <ul className={`${footerStyles.box} ${footerStyles['input-box']}`}>
                             <li className={footerStyles.link_name}>Subscribe</li>
                             <li><input type="text" placeholder="Enter your email" /></li>
                             <li><input type="button" value="Subscribe" /></li>
                         </ul>
+                        
                     </div>
                 </div>
                 <div className={footerStyles['bottom-details']}>
@@ -72,10 +84,10 @@ const Footer = () => {
                             <Link href="/>"> 
                                 SEHAT
                             </Link> All rights reserved </span>
-                        <span className={footerStyles.policy_terms}>
+                        {/* <span className={footerStyles.policy_terms}>
                           <Link href="/">Privacy policy</Link>
                           <Link href="/">Terms & condition</Link>
-                        </span>
+                        </span> */}
                     </div>
                 </div>
             </footer>
