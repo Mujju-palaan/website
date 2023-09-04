@@ -5,6 +5,7 @@ import Header from './components/Header&Footer/Header'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import { Auth0Provider } from '@auth0/auth0-react';
+import Header2 from './components/Header&Footer/Header2';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,7 +24,8 @@ export default function RootLayout({ children }) {
         authorizationParams={{
         redirect_uri: window.location.origin
         }}
-      >     
+      > 
+        {/* <Header2></Header2>     */}
         <Header></Header>
         {children}
         <Footer></Footer>

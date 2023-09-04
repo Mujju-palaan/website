@@ -51,7 +51,7 @@ const Nav = () => {
                 Contact
               </Link>
             </li>
-            <li>
+            {/* <li>
             {isAuthenticated && <h3>Hello {user.name}</h3>}
             </li>
             {isAuthenticated ? (
@@ -82,7 +82,7 @@ const Nav = () => {
               >
                 Log Out
               </button>
-            </li>
+            </li> */}
           </ul>
 
           {/* //nav icon */}
