@@ -1,7 +1,7 @@
 "use client";
-import CC from "@/app/components/pricingpage/CreditCard/CC";
-import "@/app/components/pricingpage/CreditCard/styles/index.css";
-import PricingCard from "@/app/components/AllCards/PricingCard/PricingCard";
+import CC from '../../components/pricingpage/CreditCard/CC'
+import '../../components/pricingpage/CreditCard/styles/index.css'
+import PricingCard from '../../components/AllCards/PricingCard/PricingCard'
 
 const PricingPage = () => {
   return (

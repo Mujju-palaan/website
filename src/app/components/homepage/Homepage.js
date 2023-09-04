@@ -1,5 +1,6 @@
-import homestyle from '@/app/components/homepage/Homepage.module.css'
-import Carouselbanner from '@/app/components/homepage/Carouselbanner.js'
+"use client"
+import homestyle from './Homepage.module.css'
+// import Carouselbanner from '@/app/components/homepage/Carouselbanner.js'
 
 const Homepage = () => {
   return (

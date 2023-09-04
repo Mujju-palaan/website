@@ -1,5 +1,5 @@
 import React from 'react'
-import WeddingDeitProgram from '../Container/Plans/WeddingDeitProgram/WeddingDeitProgram'
+import WeddingDeitProgram from '../Container/Plans/WeddingDeitProgram'
 
 const page = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import WeightLossPrograms from '../Container/Plans/WeightLossPrograms/WeightLossPrograms'
+import WeightLossPrograms from '../Container/Plans/WeightLossPrograms'
 
 const page = () => {
   return (

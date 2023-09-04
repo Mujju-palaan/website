@@ -1,6 +1,6 @@
 import Lottie from "lottie-react"
-import img from '@/app/Container/AanimationFiles/assets/DietPlan.json' 
-import styles from './acommom.module.css'
+// import img from '@/app/Container/AanimationFiles/assets/DietPlan.json' 
+import img from './assets/DietPlan.json'
 
 const DietPlan = () => {
   return (

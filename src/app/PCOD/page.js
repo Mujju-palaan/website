@@ -1,5 +1,5 @@
 import React from 'react'
-import PCOD from '../Container/Plans/PCOD/PCOD'
+import PCOD from '../Container/Plans/PCOD'
 
 const page = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import KidsNutrition from '../Container/Plans/KidsNutrition/KidsNutrition'
+import KidsNutrition from '../Container/Plans/KidsNutrition'
 
 const page = () => {
   return (

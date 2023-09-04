@@ -1,5 +1,5 @@
 import Lottie from "lottie-react"
-import img from '@/app/Container/AanimationFiles/assets/Lady_exersice_onball.json' 
+import img from '../AanimationFiles/assets/Lady_exersice_onball.json'
 import styles from './acommom.module.css'
 
 const Lady_exersice_onball = () => {

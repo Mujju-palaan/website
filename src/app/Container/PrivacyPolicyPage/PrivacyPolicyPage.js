@@ -1,4 +1,4 @@
-import styles from "@/app/Container/PrivacyPolicyPage/PrivacyPolicyPage.module.css";
+import styles from './PrivacyPolicyPage.module.css'
 
 const PrivacyPolicyPage = () => {
   return (

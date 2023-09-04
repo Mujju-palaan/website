@@ -1,5 +1,5 @@
 import React from 'react'
-import DiabetesDeitProgram from '../Container/Plans/DiabetesDeitProgram/DiabetesDeitProgram'
+import DiabetesDeitProgram from '../Container/Plans/DiabetesDeitProgram'
 
 const page = () => {
   return (

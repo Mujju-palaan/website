@@ -1,6 +1,6 @@
-import HealthgoalCard from "@/app/components/AllCards/HealthgoalCard/HealthgoalCard";
-import Homepage from "@/app/components/homepage/Homepage";
-import Card from "@/app/components/AllCards/Card";
+import HealthgoalCard from '../../components/AllCards/HealthgoalCard/HealthgoalCard'
+import Homepage from '../../components/homepage/Homepage'
+import Card from '../../components/AllCards/Card'
 import "./HomePage.css";
 
 import React from "react";
@@ -10,7 +10,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { EffectCoverflow, Pagination, Navigation } from "swiper";
-import Lady_exersice_onball from '@/app/Container/AanimationFiles/Lady_exersice_onball';
+import Lady_exersice_onball from '../../Container/AanimationFiles/Lady_exersice_onball'
 import DietPlan from "../AanimationFiles/DietPlan";
 import Applekit from "./Applekit";
 
