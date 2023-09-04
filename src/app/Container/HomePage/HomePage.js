@@ -12,6 +12,7 @@ import "swiper/css/navigation";
 import { EffectCoverflow, Pagination, Navigation } from "swiper";
 import Lady_exersice_onball from '@/app/Container/AanimationFiles/Lady_exersice_onball';
 import DietPlan from "../AanimationFiles/DietPlan";
+import Applekit from "./Applekit";
 
 const HomePage = () => {
   return (
@@ -21,6 +22,8 @@ const HomePage = () => {
       <div style={{ displayL: "flex", padding: "5rem 0 5rem 0" }}>
         <HealthgoalCard></HealthgoalCard>
       </div>
+      <Applekit/>
+
       <h1 style={{ textAlign: "center" }}>Our Programs</h1>
 
       {/* ********************SLIDERS************************************ */}

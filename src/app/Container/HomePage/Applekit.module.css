@@ -1,0 +1,11 @@
+.flex{
+    display: flex;
+}
+.applesize{
+    width: 80%;
+    max-height: auto;
+}
+.samsungsize{
+    max-width: 500px;
+    max-height: auto;
+}
