@@ -1,6 +1,7 @@
-import ContactCard from "@/app/components/Contact/ContactCard";
-import styles from "@/app/Container/ContactusPage/Contact.module.css";
-import ContactForm from "@/app/components/Contact/ContactForm"; 
+import ContactCard from '../../components/Contact/ContactCard'
+import styles from '../../Container/ContactusPage/Contact.module.css'
+import ContactForm from '../../components/Contact/ContactForm'
+
 
 const ContactusPage = () => {
   return (

@@ -1,10 +1,11 @@
 "use client"
-import AboutUs from "@/app/components/AboutUs/AboutUs";
+import AboutUs from '../../components/AboutUs/AboutUs'
 import React from "react";
 import styles from './AboutusPage.module.css'
 import { Button } from "react-bootstrap";
 import ReactCardSlider from 'react-card-slider-component';
-import Profilecorusel from "@/app/components/AboutUs/Profilecorusel";
+import Profilecorusel from '../../components/AboutUs/Profilecorusel'
+
 // a slide object contains the image link, title and function/click event for when a user clicks on a card
 
 const AboutusPage = () => {

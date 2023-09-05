@@ -51,7 +51,7 @@
   }
   
   .etiquet-price p:after {
-    content: "/ handle";
+    content: "/ Year";
     margin-left: 5px;
     font-size: 15px;
     font-weight: 300;
@@ -94,6 +94,7 @@
   
   .benefits-list ul li span {
     font-weight: 300;
+    letter-spacing: .04rem;
   }
   
   .button-get-plan {

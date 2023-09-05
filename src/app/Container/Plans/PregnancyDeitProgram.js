@@ -2,7 +2,7 @@ import React from 'react'
 
 const PregnancyDeitProgram = () => {
   return (
-    <div>PregnancyDeitProgram</div>
+    <div>Remove IT</div>
   )
 }
 
