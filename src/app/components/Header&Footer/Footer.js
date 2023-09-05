@@ -28,7 +28,7 @@ const Footer = () => {
                         <div className={styles[`media-icons`]}>
                             <Link href="https://www.facebook.com" target="_blank"><i > <FaFacebookF/> </i></Link>
                             <Link href="https://www.twitter.com" target="_blank"><i > <FaTwitter/> </i> </Link>
-                            <Link href="https://www.instagram.com" target="_blank"><i > <FaInstagram/>  </i></Link>
+                            <Link href="https://www.instagram.com/sehat_nutrition_/" target="_blank"><i > <FaInstagram/>  </i></Link>
                             <Link href="https://www.linkedin.com" target="_blank"><i > <FaLinkedinIn /> </i></Link>
                             <Link href="https://www.youtube.com" target="_blank"><i > <FaYoutube />  </i></Link>
                         </div>
@@ -44,11 +44,11 @@ const Footer = () => {
                         </ul>
                         <ul className={styles.box}>
                             <li className={styles.link_name}>Our Services</li>
-                            <li><a href="#">Personalized Nutrition</a></li>
-                            <li><a href="#">Balance Body & Mind</a></li>
-                            <li><a href="#">Child Nutrition</a></li>
-                            <li><a href="#">Fitness Performance</a></li>
-                            <li><a href="#">Weight Loss Programs</a></li>
+                            <li><a href="/WeightLossPrograms">Weight Loss Programs</a></li>
+                            <li><a href="/WeightGainPrograms">Weight Gain Programs</a></li>
+                            <li><a href="/KidsNutrition">Kid's Nutrition</a></li>
+                            <li><a href="/FitnessPerformance">Fitness Performance</a></li>
+                            <li><a href="/PregnancyDeitProgram">Pregnancy Deit</a></li>
                         </ul>
                         
                         <ul className={styles.box}>

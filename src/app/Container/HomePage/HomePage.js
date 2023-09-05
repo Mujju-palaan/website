@@ -22,7 +22,7 @@ const HomePage = () => {
       <div style={{ displayL: "flex", padding: "5rem 0 5rem 0" }}>
         <HealthgoalCard></HealthgoalCard>
       </div>
-      <Applekit/>
+      {/* <Applekit/> */}
 
       <h1 style={{ textAlign: "center" }}>Our Programs</h1>
 
