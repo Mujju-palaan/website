@@ -56,40 +56,36 @@ const HomePage = () => {
           <SwiperSlide>
             <Card
               title="Weight Loss Deit Program"
-              content={`Our experienced medical professionals put your healing needs first. We are proud to 
-          provide a high-quality level of customer service, medical experience, and commitment to 
-          health and wellness to all our patients. Our goal is to make you feel better as quickly as possible.`}
+              content={`Transform Your Life with Our Personalized Weight Loss Program.`}
               Images="/prog_weightloss.jpg"
+              link='WeightLossPrograms'
             />
           </SwiperSlide>
           <SwiperSlide>
             <Card
               title="Weight Gain Deit Program"
-              content={`Our experienced medical professionals put your healing needs first. We are proud to 
-          provide a high-quality level of customer service, medical experience, and commitment to 
-          health and wellness to all our patients. Our goal is to make you feel better as quickly as possible.`}
+              content={`Achieve Healthy Weight Gain with Our Personalized Program.`}
               Images="/prog_weightgain.jpg"
+              link='WeightGainPrograms'
             />
           </SwiperSlide>
           <SwiperSlide>
             <Card
               title="Diabetes Deit Program"
-              content={`Our experienced medical professionals put your healing needs first. We are proud to 
-          provide a high-quality level of customer service, medical experience, and commitment to 
-          health and wellness to all our patients. Our goal is to make you feel better as quickly as possible.`}
+              content={`Expertly Crafted Diabetes Diet Plans for Optimal Health.`}
               Images="/prog_diabeties.jpg"
+              link='DiabetesDeitProgram'
             />
           </SwiperSlide>
           <SwiperSlide>
             <Card
               title="PCOD/PCOS Deit Program"
-              content={`Our experienced medical professionals put your healing needs first. We are proud to 
-          provide a high-quality level of customer service, medical experience, and commitment to 
-          health and wellness to all our patients. Our goal is to make you feel better as quickly as possible.`}
+              content={`Empowering Women with Our Comprehensive PCOD/PCOS Management Program.`}
               Images="/prog_pcod.jpg"
+              link='PCOD'
             />
           </SwiperSlide>
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <Card
               title="Cardiovascular Health Improvement Program"
               content={`Our experienced medical professionals put your healing needs first. We are proud to 
@@ -106,41 +102,37 @@ const HomePage = () => {
           health and wellness to all our patients. Our goal is to make you feel better as quickly as possible.`}
               Images="/prog_pragnent.jpg"
             />
-          </SwiperSlide>
+          </SwiperSlide> */}
           <SwiperSlide>
             <Card
               title="Wedding Deit Program"
-              content={`Our experienced medical professionals put your healing needs first. We are proud to 
-          provide a high-quality level of customer service, medical experience, and commitment to 
-          health and wellness to all our patients. Our goal is to make you feel better as quickly as possible.`}
+              content={`Achieve Your Dream Wedding Look with Our Specialized Wedding Diet Program.`}
               Images="/prog_wedding.jpg"
+              link='WeddingDeitProgram'
             />
           </SwiperSlide>
           <SwiperSlide>
             <Card
               title="Menopause Deit Program"
-              content={`Our experienced medical professionals put your healing needs first. We are proud to 
-          provide a high-quality level of customer service, medical experience, and commitment to 
-          health and wellness to all our patients. Our goal is to make you feel better as quickly as possible.`}
+              content={`Embrace Menopause with Vitality: Our Personalized Menopause Diet Program.`}
               Images="/prog_monopause.jpg"
+              link='MenopauseDeitProgram'
             />
           </SwiperSlide>
           <SwiperSlide>
             <Card
               title="Kids Nutrition Program"
-              content={`Our experienced medical professionals put your healing needs first. We are proud to 
-          provide a high-quality level of customer service, medical experience, and commitment to 
-          health and wellness to all our patients. Our goal is to make you feel better as quickly as possible.`}
+              content={`Nurturing Healthy Futures: Our Specialized Kids Nutrition Program.`}
               Images="/prog_kidsdiet.jpg"
+              link='KidsNutrition'
             />
           </SwiperSlide>
           <SwiperSlide>
             <Card
-              title="Fast Fit Plan"
-              content={`Our experienced medical professionals put your healing needs first. We are proud to 
-          provide a high-quality level of customer service, medical experience, and commitment to 
-          health and wellness to all our patients. Our goal is to make you feel better as quickly as possible.`}
+              title="Fitness Plan"
+              content={`Elevate Your Performance with Our Custom Fitness Programs.`}
               Images="/prog_fastfit.jpg"
+              link='FitnessPerformance'
             />
           </SwiperSlide>
 

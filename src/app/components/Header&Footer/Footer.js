@@ -36,29 +36,29 @@ const Footer = () => {
                     <div className={styles['link-boxes']}>
                         <ul className={styles.box}>
                             <li className={styles.link_name}>Company</li>
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/contactus">Contact us</a></li>
-                            <li><a href="/about">About us</a></li>
-                            <li><a href="/pricing">Pricing</a></li>
-                            <li><a href="faqs">Faq's</a></li>
+                            <li><Link href="/">Home</Link></li>
+                            <li><Link href="/contactus">Contact Us</Link></li>
+                            <li><Link href="/about">About Us</Link></li>
+                            <li><Link href="/pricing">Pricing</Link></li>
+                            <li><Link href="/faqs">Faq's</Link></li>
                         </ul>
                         <ul className={styles.box}>
                             <li className={styles.link_name}>Our Services</li>
-                            <li><a href="/WeightLossPrograms">Weight Loss Programs</a></li>
-                            <li><a href="/WeightGainPrograms">Weight Gain Programs</a></li>
-                            <li><a href="/KidsNutrition">Kid's Nutrition</a></li>
-                            <li><a href="/FitnessPerformance">Fitness Performance</a></li>
-                            <li><a href="/DiabetesDeitProgram">Diabetes Deit Program</a></li>
-                            <li><a href="/MenopauseDeitProgram">Menopause Deit Program</a></li>
-                            <li><a href="/PCOD">PCOD</a></li>
-                            <li><a href="/WeddingDeitProgram">Wedding Deit</a></li>
+                            <li><Link href="/WeightLossPrograms">Weight Loss Programs</Link></li>
+                            <li><Link href="/WeightGainPrograms">Weight Gain Programs</Link></li>
+                            <li><Link href="/KidsNutrition">Kid's Nutrition</Link></li>
+                            <li><Link href="/FitnessPerformance">Fitness Performance</Link></li>
+                            <li><Link href="/DiabetesDeitProgram">Diabetes Deit Program</Link></li>
+                            <li><Link href="/MenopauseDeitProgram">Menopause Deit Program</Link></li>
+                            <li><Link href="/PCOD">PCOD</Link></li>
+                            <li><Link href="/WeddingDeitProgram">Wedding Deit</Link></li>
                         </ul>
                         
                         <ul className={styles.box}>
                             <li className={styles.link_name}>Policy</li>
-                            <li><a href="/termscondition">Terms & Condition</a></li>
-                            <li><a href="/cancellationRefund">Cancellation & Refund</a></li>
-                            <li><a href="/privacypolicy">Privacy & Policy</a></li>
+                            <li><Link href="/termscondition">Terms & Condition</Link></li>
+                            <li><Link href="/cancellationRefund">Cancellation & Refund</Link></li>
+                            <li><Link href="/privacypolicy">Privacy & Policy</Link></li>
                             {/* <li><a href="#">Photoshop</a></li> */}
                         </ul>
                         <ul className={styles.box}>

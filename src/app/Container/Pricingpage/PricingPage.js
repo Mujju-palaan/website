@@ -4,7 +4,7 @@ import '../../components/pricingpage/CreditCard/styles/index.css'
 import PricingCard from '../../components/AllCards/PricingCard/PricingCard'
 import Familypricing from '../../components/AllCards/PricingCard/Familypricing'
 import Businesspricing from '../../components/AllCards/PricingCard/Businesspricing'
-
+import PricingForm from '../../components/pricingpage/PricingForm'
 
 const PricingPage = () => {
   return (
@@ -54,6 +54,9 @@ const PricingPage = () => {
         content5={`Covers up to 50 employees`}
         content6={`Apple/Samsung Kit each`}
         />
+      </div>
+      <div style={{textAlign:'center', justifyContent:'center', justifyItems:'center'}}>
+      <PricingForm />
       </div>
       <CC />
     </>

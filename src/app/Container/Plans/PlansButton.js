@@ -1,7 +1,5 @@
 "use client"
 import React from 'react'
-import styles from './styles.module.css'
-import Plans from '../../components/Plans/Plans'
 import Link from "next/link";
 import { useState } from "react";
 
@@ -30,14 +28,10 @@ const PlansButton = () => {
             </Link>
             <Link href="/DiabetesDeitProgram" onClick={() => setOpenMenu(false)}>
                 <button style={{backgroundColor:'rgba(128, 205, 255, 0.8)',margin:'1rem'}}>Diabetes Diet</button>
-            </Link>
-       
-        
-        
-        
-        
-        
-        
+            </Link> 
+            <Link href="/MenopauseDeitProgram" onClick={() => setOpenMenu(false)}>
+                <button style={{backgroundColor:'rgba(128, 205, 255, 0.8)',margin:'1rem'}}>Menopause Deit</button>
+            </Link>        
       </div>
     </div>
   )
