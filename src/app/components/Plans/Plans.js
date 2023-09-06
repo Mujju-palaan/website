@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './styles.module.css'
-import bannerImg from '../../../../public/Plans_PCODBanner.jpeg'
 
 const Plans = (props) => {
   return (

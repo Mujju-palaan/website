@@ -1,10 +1,17 @@
+"use client"
 import React from 'react'
 import styles from './styles.module.css'
 import Plans from '../../components/Plans/Plans'
+import { useState } from "react";
+import PlansButton from './PlansButton'
+
 
 const FitnessPerformance = () => {
+  const [openMenu, setOpenMenu] = useState(false);
   return (
     <div>
+      <div className={styles.FitnessbannerImg}></div>
+      <PlansButton/>
       <Plans
       title='**Elevate Your Performance with Our Custom Fitness Programs**'
       title1='Introduction'

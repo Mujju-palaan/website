@@ -1,5 +1,8 @@
-.bg{
-    background-image: url(/public/Plans_PCODBanner.jpeg);
+
+.BgImage{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .title{
     font-size: 3rem;
@@ -12,7 +15,7 @@
 }
 .main{
     margin: 3rem;
-    padding: 6rem 26rem 0 20rem;
+    padding: 1rem 26rem 0 20rem;
 }
 
 .circle{

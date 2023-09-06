@@ -1,10 +1,14 @@
 import React from 'react'
 import Plans from '../../components/Plans/Plans'
+import styles from './styles.module.css'
+import PlansButton from './PlansButton'
 
 
 const MenopauseDeitProgram = () => {
   return (
     <div>
+      <div className={styles.MonopausebannerImg}></div>
+      <PlansButton />
       <Plans
       title='**"Embrace Menopause with Vitality: Our Personalized Menopause Diet Program"**'
       title1='Introduction'

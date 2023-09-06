@@ -1,10 +1,13 @@
 import React from 'react'
 import styles from './styles.module.css'
 import Plans from '../../components/Plans/Plans'
+import PlansButton from './PlansButton'
 
 const PCOD = () => {
   return (
     <div>
+      <div className={styles.PCODbannerImg}></div>
+      <PlansButton />
       <Plans
       title='**"Empowering Women with Our Comprehensive PCOD/PCOS Management Program"**'
       title1='Introduction'

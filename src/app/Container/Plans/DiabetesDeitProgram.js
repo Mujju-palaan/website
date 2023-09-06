@@ -1,10 +1,13 @@
 import React from 'react'
 import styles from './styles.module.css'
 import Plans from '../../components/Plans/Plans'
+import PlansButton from './PlansButton'
 
 const DiabetesDeitProgram = () => {
   return (
     <div>
+      <div className={styles.DiabetesbannerImg}></div>
+      <PlansButton/>
       <Plans
       title='**"Expertly Crafted Diabetes Diet Plans for Optimal Health"**'
       title1='Introduction:'

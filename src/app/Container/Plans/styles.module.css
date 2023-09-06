@@ -1,0 +1,56 @@
+.WeddingbannerImg{
+    background-image: url('./images/plan_weddingbanner 2.jpg');
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.WeightLossbannerImg{
+    background-image: url('./images/banner-1.jpg');
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.WeightGainbannerImg{
+    background-image: url('./images/plan_weightGainbanner.jpg');
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.PCODbannerImg{
+    background-image: url('./images/Plans_PCODBanner1.jpg');
+    width: 100%;
+    height: 45vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.MonopausebannerImg{
+    background-image: url('./images/paln_menopauseBanneer.jpg');
+    width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.KidsbannerImg{
+    background-image: url('./images/plan_kidsbanner.jpg');
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.FitnessbannerImg{
+    background-image: url('./images/plan_fitnessBanner.jpg');
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.DiabetesbannerImg{
+    background-image: url('./images/plan_diabetsBanner.jpg');
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; 
 import styles from '../../styles/footer.module.css'
 import { FaFacebookF, FaTwitter,FaInstagram,FaLinkedinIn,FaYoutube } from "react-icons/fa";
 import Link from "next/link";
@@ -40,7 +40,7 @@ const Footer = () => {
                             <li><a href="/contactus">Contact us</a></li>
                             <li><a href="/about">About us</a></li>
                             <li><a href="/pricing">Pricing</a></li>
-                            <li><a href="faqs">FAQ's</a></li>
+                            <li><a href="faqs">Faq's</a></li>
                         </ul>
                         <ul className={styles.box}>
                             <li className={styles.link_name}>Our Services</li>
@@ -48,7 +48,10 @@ const Footer = () => {
                             <li><a href="/WeightGainPrograms">Weight Gain Programs</a></li>
                             <li><a href="/KidsNutrition">Kid's Nutrition</a></li>
                             <li><a href="/FitnessPerformance">Fitness Performance</a></li>
-                            <li><a href="/PregnancyDeitProgram">Pregnancy Deit</a></li>
+                            <li><a href="/DiabetesDeitProgram">Diabetes Deit Program</a></li>
+                            <li><a href="/MenopauseDeitProgram">Menopause Deit Program</a></li>
+                            <li><a href="/PCOD">PCOD</a></li>
+                            <li><a href="/WeddingDeitProgram">Wedding Deit</a></li>
                         </ul>
                         
                         <ul className={styles.box}>

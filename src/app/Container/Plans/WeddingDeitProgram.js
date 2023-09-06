@@ -1,10 +1,14 @@
 import React from 'react'
 import Plans from '../../components/Plans/Plans'
-
+import styles from './styles.module.css'
+import img from './images/Plans_weddingBanner.jpeg'
+import PlansButton from './PlansButton'
 
 const WeddingDeitProgram = () => {
   return (
     <div>
+      <div className={styles.WeddingbannerImg}></div>
+      <PlansButton />
       <Plans
       title='Achieve Your Dream Wedding Look with Our Specialized Wedding Diet Program'
       title1='Introduction:'
