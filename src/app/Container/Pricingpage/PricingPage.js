@@ -56,7 +56,7 @@ const PricingPage = () => {
         />
       </div>
       <div style={{textAlign:'center', justifyContent:'center', justifyItems:'center'}}>
-      <PricingForm />
+      {/* <PricingForm /> */}
       </div>
       <CC />
     </>
