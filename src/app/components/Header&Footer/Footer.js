@@ -44,12 +44,12 @@ const Footer = () => {
                         </ul>
                         <ul className={styles.box}>
                             <li className={styles.link_name}>Our Services</li>
-                            <li><Link href="/WeightLossPrograms">Weight Loss Programs</Link></li>
-                            <li><Link href="/WeightGainPrograms">Weight Gain Programs</Link></li>
+                            <li><Link href="/WeightLossPrograms">Weight Loss</Link></li>
+                            <li><Link href="/WeightGainPrograms">Weight Gain</Link></li>
                             <li><Link href="/KidsNutrition">Kid's Nutrition</Link></li>
                             <li><Link href="/FitnessPerformance">Fitness Performance</Link></li>
-                            <li><Link href="/DiabetesDeitProgram">Diabetes Deit Program</Link></li>
-                            <li><Link href="/MenopauseDeitProgram">Menopause Deit Program</Link></li>
+                            <li><Link href="/DiabetesDeitProgram">Diabetes Deit</Link></li>
+                            <li><Link href="/MenopauseDeitProgram">Menopause Deit</Link></li>
                             <li><Link href="/PCOD">PCOD</Link></li>
                             <li><Link href="/WeddingDeitProgram">Wedding Deit</Link></li>
                         </ul>

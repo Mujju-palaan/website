@@ -5,6 +5,10 @@ import PricingCard from '../../components/AllCards/PricingCard/PricingCard'
 import Familypricing from '../../components/AllCards/PricingCard/Familypricing'
 import Businesspricing from '../../components/AllCards/PricingCard/Businesspricing'
 import PricingForm from '../../components/pricingpage/PricingForm'
+import SimpleCard from '../../components/AllCards/SimpleCard/SimpleCard'
+import Countrystate from '../../components/pricingpage/CountryForm';
+import BillingForm from '../../components/pricingpage/BillingForm';
+import styles from '../../components/pricingpage/PricingForm.module.css'
 
 const PricingPage = () => {
   return (
@@ -55,8 +59,15 @@ const PricingPage = () => {
         content6={`Apple/Samsung Kit each`}
         />
       </div>
-      <div style={{textAlign:'center', justifyContent:'center', justifyItems:'center'}}>
+      <div className={styles.contact_section}>
+      <h2>Details</h2>
+      <BillingForm />
+      </div>
+
+      <div style={{textAlign:'center', justifyContent:'center', justifyItems:'center', flexDirection:'column',display:'flex'}}>
       {/* <PricingForm /> */}
+      {/* <SimpleCard /> */}
+      {/* <Countrystate /> */}
       </div>
       <CC />
     </>

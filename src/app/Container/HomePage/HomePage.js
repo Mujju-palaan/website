@@ -55,7 +55,7 @@ const HomePage = () => {
         >
           <SwiperSlide>
             <Card
-              title="Weight Loss Deit Program"
+              title="Weight Loss"
               content={`Transform Your Life with Our Personalized Weight Loss Program.`}
               Images="/prog_weightloss.jpg"
               link='WeightLossPrograms'
@@ -63,7 +63,7 @@ const HomePage = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Card
-              title="Weight Gain Deit Program"
+              title="Weight Gain"
               content={`Achieve Healthy Weight Gain with Our Personalized Program.`}
               Images="/prog_weightgain.jpg"
               link='WeightGainPrograms'
@@ -71,7 +71,7 @@ const HomePage = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Card
-              title="Diabetes Deit Program"
+              title="Diabetes"
               content={`Expertly Crafted Diabetes Diet Plans for Optimal Health.`}
               Images="/prog_diabeties.jpg"
               link='DiabetesDeitProgram'
@@ -79,7 +79,7 @@ const HomePage = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Card
-              title="PCOD/PCOS Deit Program"
+              title="PCOD/PCOS"
               content={`Empowering Women with Our Comprehensive PCOD/PCOS Management Program.`}
               Images="/prog_pcod.jpg"
               link='PCOD'
@@ -105,7 +105,7 @@ const HomePage = () => {
           </SwiperSlide> */}
           <SwiperSlide>
             <Card
-              title="Wedding Deit Program"
+              title="Wedding"
               content={`Achieve Your Dream Wedding Look with Our Specialized Wedding Diet Program.`}
               Images="/prog_wedding.jpg"
               link='WeddingDeitProgram'
@@ -113,7 +113,7 @@ const HomePage = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Card
-              title="Menopause Deit Program"
+              title="Menopause"
               content={`Embrace Menopause with Vitality: Our Personalized Menopause Diet Program.`}
               Images="/prog_monopause.jpg"
               link='MenopauseDeitProgram'
@@ -121,7 +121,7 @@ const HomePage = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Card
-              title="Kids Nutrition Program"
+              title="Kids Nutrition"
               content={`Nurturing Healthy Futures: Our Specialized Kids Nutrition Program.`}
               Images="/prog_kidsdiet.jpg"
               link='KidsNutrition'
