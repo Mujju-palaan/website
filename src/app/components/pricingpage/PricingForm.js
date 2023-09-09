@@ -75,6 +75,7 @@ const PricingForm = () => {
                     />
                 </label>
             </div>
+            
 
             <div className={styles.input_field}>
                 <label htmlFor="email" className={styles.label}>
