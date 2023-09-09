@@ -1,8 +1,11 @@
 "use client"
 import homestyle from './Homepage.module.css'
+import Link from "next/link";
+import { useState } from "react";
 // import Carouselbanner from '@/app/components/homepage/Carouselbanner.js'
 
 const Homepage = () => {
+  const [openMenu, setOpenMenu] = useState(false);
   return (
     <>
     <div>
@@ -18,8 +21,13 @@ const Homepage = () => {
               </p>
               <h2>LIVING YOUR BEST LIFE</h2>
               <div>
-               <span> <button style={{opacity: '80%'}}> CONTACT US</button> </span>
-               <span> <button style={{opacity: '80%'}}> Learn More</button> </span>
+               <span> 
+               <Link href={`/contactus`} onClick={() => setOpenMenu(false)}>
+                  <button style={{opacity: '80%'}}> CONTACT US</button>
+                </Link>
+                
+                </span>
+               {/* <span> <button style={{opacity: '80%'}}> Learn More</button> </span> */}
               </div>
             </div>   
           </div>

@@ -5,6 +5,7 @@ import styles from './AboutusPage.module.css'
 import { Button } from "react-bootstrap";
 import ReactCardSlider from 'react-card-slider-component';
 import Profilecorusel from '../../components/AboutUs/Profilecorusel'
+import KitsimgCard from '../../components/Kits/KitsimgCard';
 
 // a slide object contains the image link, title and function/click event for when a user clicks on a card
 
@@ -60,8 +61,22 @@ const AboutusPage = () => {
           <h1>Our Health</h1>
           <h1 style={{color:'#609a33'}}>Specialist Team</h1>
           {/* <ReactCardSlider slides={slides}/> */}
+          <div style={{textAlign:'center', display:'flex', gap:'4rem', justifyContent:'center'}}>
+            <KitsimgCard 
+            image=""
+            title={`Yoga speciliest`}
+            />
+            <KitsimgCard 
+            image=""
+            title={`Yoga speciliest`}
+            />
+            <KitsimgCard 
+            image=""
+            title={`Yoga speciliest`}
+            />
+          </div>
         </div>
-        <Profilecorusel/>
+        {/* <Profilecorusel/> */}
         {/* ********************OUR TEAM ************************* */}
       </div>
     </>

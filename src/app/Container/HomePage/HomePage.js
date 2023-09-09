@@ -13,6 +13,7 @@ import { EffectCoverflow, Pagination, Navigation } from "swiper";
 import Lady_exersice_onball from '../../Container/AanimationFiles/Lady_exersice_onball'
 import DietPlan from "../AanimationFiles/DietPlan";
 import Applekit from "./Applekit";
+import KitsCom from '../../components/Kits/KitsCom'
 
 const HomePage = () => {
   return (
@@ -22,7 +23,20 @@ const HomePage = () => {
       <div style={{ displayL: "flex", padding: "5rem 0 5rem 0" }}>
         <HealthgoalCard></HealthgoalCard>
       </div>
-      {/* <Applekit/> */}
+      <div style={{ displayL: "flex", padding: "5rem 0 5rem 0",textAlign: "center", justifyContent:'center', justifyItems:'center', 
+      display:'flex', gap:'4rem' }}>
+      <KitsCom
+      image='home_applekit.png'
+      title='Apple Kit' 
+      link='applekits'
+      />
+      <KitsCom 
+      image='home_applekit.png'
+      title='Samsung Kit'
+      link='samsungkit'
+      />
+      </div>
+      
 
       <h1 style={{ textAlign: "center" }}>Our Programs</h1>
 
