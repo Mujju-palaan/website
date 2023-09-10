@@ -1,19 +1,10 @@
 import HealthgoalCard from '../../components/AllCards/HealthgoalCard/HealthgoalCard'
 import Homepage from '../../components/homepage/Homepage'
-import Card from '../../components/AllCards/Card'
 import "./HomePage.css";
-
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/effect-coverflow";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import { EffectCoverflow, Pagination, Navigation } from "swiper";
-import Lady_exersice_onball from '../../Container/AanimationFiles/Lady_exersice_onball'
-import DietPlan from "../AanimationFiles/DietPlan";
-import Applekit from "./Applekit";
 import KitsCom from '../../components/Kits/KitsCom'
+import HomeSlider from './HomeSlider'
+import Challenge from './Challenge'
 
 const HomePage = () => {
   return (
@@ -41,166 +32,12 @@ const HomePage = () => {
       <h1 style={{ textAlign: "center" }}>Our Programs</h1>
 
       {/* ********************SLIDERS************************************ */}
-      <div className="container">
-        {/* <h1 className="heading"></h1> */}
-        <Swiper
-          style={{ overflow: "visible" }}
-          effect={"coverflow"}
-          grabCursor={true}
-          centeredSlides={true}
-          loop={true}
-          slidesPerView={"auto"}
-          watchOverflow={"none"}
-          coverflowEffect={{
-            rotate: 0,
-            stretch: 0,
-            depth: 100,
-            modifier: 2.5,
-            watchOverflow: "none",
-          }}
-          pagination={{ el: ".swiper-pagination", clickable: true }}
-          navigation={{
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-            clickable: true,
-          }}
-          modules={[EffectCoverflow, Pagination, Navigation]}
-          className="swiper_container"
-        >
-          <SwiperSlide>
-            <Card
-              title="Weight Loss"
-              content={`Transform Your Life with Our Personalized Weight Loss Program.`}
-              Images="/prog_weightloss.jpg"
-              link='WeightLossPrograms'
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Card
-              title="Weight Gain"
-              content={`Achieve Healthy Weight Gain with Our Personalized Program.`}
-              Images="/prog_weightgain.jpg"
-              link='WeightGainPrograms'
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Card
-              title="Diabetes"
-              content={`Expertly Crafted Diabetes Diet Plans for Optimal Health.`}
-              Images="/prog_diabeties.jpg"
-              link='DiabetesDeitProgram'
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Card
-              title="PCOD/PCOS"
-              content={`Empowering Women with Our Comprehensive PCOD/PCOS Management Program.`}
-              Images="/prog_pcod.jpg"
-              link='PCOD'
-            />
-          </SwiperSlide>
-          {/* <SwiperSlide>
-            <Card
-              title="Cardiovascular Health Improvement Program"
-              content={`Our experienced medical professionals put your healing needs first. We are proud to 
-          provide a high-quality level of customer service, medical experience, and commitment to 
-          health and wellness to all our patients. Our goal is to make you feel better as quickly as possible.`}
-              Images="/prog_health.jpg"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Card
-              title="Pregnancy and Post Pregnancy Deit Program"
-              content={`Our experienced medical professionals put your healing needs first. We are proud to 
-          provide a high-quality level of customer service, medical experience, and commitment to 
-          health and wellness to all our patients. Our goal is to make you feel better as quickly as possible.`}
-              Images="/prog_pragnent.jpg"
-            />
-          </SwiperSlide> */}
-          <SwiperSlide>
-            <Card
-              title="Wedding"
-              content={`Achieve Your Dream Wedding Look with Our Specialized Wedding Diet Program.`}
-              Images="/prog_wedding.jpg"
-              link='WeddingDeitProgram'
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Card
-              title="Menopause"
-              content={`Embrace Menopause with Vitality: Our Personalized Menopause Diet Program.`}
-              Images="/prog_monopause.jpg"
-              link='MenopauseDeitProgram'
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Card
-              title="Kids Nutrition"
-              content={`Nurturing Healthy Futures: Our Specialized Kids Nutrition Program.`}
-              Images="/prog_kidsdiet.jpg"
-              link='KidsNutrition'
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Card
-              title="Fitness Plan"
-              content={`Elevate Your Performance with Our Custom Fitness Programs.`}
-              Images="/prog_fastfit.jpg"
-              link='FitnessPerformance'
-            />
-          </SwiperSlide>
-
-          <div className="slider-controler" style={{ paddingTop: "0" }}>
-            <div className="swiper-button-prev slider-arrow">
-              <ion-icon name="arrow-back-outline"></ion-icon>
-            </div>
-            <div className="swiper-button-next slider-arrow">
-              <ion-icon name="arrow-forward-outline"></ion-icon>
-            </div>
-            <div className="swiper-pagination"></div>
-          </div>
-        </Swiper>
-      </div>
+      <HomeSlider />
 
       {/* ********************SLIDERS************************************ */}
 
-      <div
-        className="bg"
-        style={{ backgroundImage: 'url("landing-page-bg.jpg")' }}
-      >
-        <div className="challenge">
-          <h1>Change your life in the next </h1>
-          <h1 style={{ color: "green" }}>90 days of Practice</h1>
-          <p style={{ color: "grey" }}>
-            Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur
-            ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas
-            tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit
-            amet adipiscing sem neque sed ipsum.
-          </p>
-          <div className="contentbox">
-            <div className="contentbox">
-              <div style={{margin:'2rem', marginTop:0}}>
-                <h2>Personalized Nutrition Plan</h2>
-                <div className="imgsettings1"><DietPlan className='dietplansize'></DietPlan></div>
-                <p className="text1">
-                  Etiam sit amet orci eget eros faucibus tincidunt. Sed
-                  fringilla mauris sit amet nibh.
-                </p>
-              </div>
-            </div>
-            <div className="contentbox">
-              <div style={{margin:'2rem', marginTop:0}}>
-                <h2>Personalized Exercise Plan</h2>
-                <div className="imgsettings"><Lady_exersice_onball ></Lady_exersice_onball></div>
-                <p className="text">
-                  Etiam sit amet orci eget eros faucibus tincidunt. Sed
-                  fringilla mauris sit amet nibh.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Challenge />
+      
     </>
   );
 };
