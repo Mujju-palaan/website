@@ -29,7 +29,7 @@ const Ourteam = () => {
             disableOnInteraction: false,
             onpointerover: stop
           }}
-          spaceBetween={20}
+          spaceBetween={150}
           style={{ overflow: "hidden" }}
           effect={"coverflow"}
           grabCursor={true}
@@ -55,26 +55,58 @@ const Ourteam = () => {
         >
           <SwiperSlide>
           <KitsimgCard 
-            image=""
-            title={`Yoga speciliest`}
+            image="/aboutus_team.png"
+            title={`Oliver`}
+            role={`Sr. Nutrition`}
             />
           </SwiperSlide>
           <SwiperSlide>
           <KitsimgCard 
-            image=""
-            title={`Yoga speciliest`}
+            image="/aboutus_team1.jpg"
+            title={`James`}
+            role={`Sr. Nutrition`}
             />
           </SwiperSlide>
           <SwiperSlide>
           <KitsimgCard 
-            image=""
-            title={`Yoga speciliest`}
+            image="aboutus_team2.jpg"
+            title={`Sophia`}
+            role={`Sr. Nutrition`}
             />
           </SwiperSlide>
           <SwiperSlide>
           <KitsimgCard 
-            image=""
-            title={`Yoga speciliest`}
+            image="/aboutus_team3.jpg"
+            title={`Sebastian`}
+            role={`Sr. Nutrition`}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+          <KitsimgCard 
+            image="/aboutus_team4.jpg"
+            title={`Lily`}
+            role={`Sr. Nutrition`}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+          <KitsimgCard 
+            image="/aboutus_team5.jpg"
+            title={`Eliana`}
+            role={`Sr. Nutrition`}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+          <KitsimgCard 
+            image="/aboutus_team6.jpg"
+            title={`Scarlett`}
+            role={`Sr. Nutrition`}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+          <KitsimgCard 
+            image="/aboutus_team7.jpg"
+            title={`Emilia`}
+            role={`Sr. Nutrition`}
             />
           </SwiperSlide>
           

@@ -64,7 +64,7 @@ html {
 .container {
   max-width: 100%;
   min-width: 80%;
-  padding: 4rem 1rem;
+  padding: 2rem 1rem 0rem 1rem;
   margin: 0 auto;
   /* overflow: visible; */
 }
@@ -76,7 +76,7 @@ html {
 }
 
 .swiper_container {
-  height: 58rem;
+  height: 52rem;
   padding: 2rem 0;
   position: relative;
   overflow: visible;

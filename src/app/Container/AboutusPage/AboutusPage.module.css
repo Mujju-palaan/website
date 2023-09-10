@@ -1,6 +1,7 @@
 .container{
     margin: 2rem;
     padding: 6rem;
+    gap: 2rem;
 }
 .flex{
     display: flex;
@@ -19,4 +20,49 @@
 .teamcontainer{
     font-weight: normal;
     padding: 2rem;
+}
+
+.main{
+    margin: 3rem;
+    padding: 6rem 26rem 0 20rem;
+    text-align: center;
+}
+
+.circle{
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    border: 2px #CBD2D9 solid;
+    border-radius: 100%;
+    color: #67788a;
+    content: counter(item);
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 800;
+    height: 30px;
+    justify-content: center;
+    margin-right: 10px;
+    min-height: 30px;
+    min-width: 30px;
+    width: 30px;
+}
+.heading{
+    color: #67788a;
+    font-family: 'Optimistic Text Bold', Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 34px;
+    margin-bottom: 30px;
+}
+/* .para{
+    font-family: 'Optimistic Text Normal', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    letter-spacing: .34px;
+    line-height: 1.5;
+} */
+
+.maincontent{
+    margin: 3rem;
+    padding: 0rem 26rem 0 20rem;
+    text-align: center;
 }

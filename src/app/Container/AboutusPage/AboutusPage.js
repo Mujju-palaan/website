@@ -2,20 +2,10 @@
 import React from "react";
 import styles from './AboutusPage.module.css'
 import Ourteam from './Ourteam'
-
-
-// a slide object contains the image link, title and function/click event for when a user clicks on a card
+import AboutusContent from './AboutusContent'
 
 const AboutusPage = () => {
-//   const slides = [
-//     {image:"https://picsum.photos/200/300",title:"This is a title",description:"This is a description",clickEvent:sliderClick},
-//     {image:"https://picsum.photos/600/500",title:"This is a second title",description:"This is a second description",clickEvent:sliderClick},
-//     {image:"https://picsum.photos/700/600",title:"This is a third title",description:"This is a third description",clickEvent:sliderClick},
-//     {image:"https://picsum.photos/500/400",title:"This is a fourth title",description:"This is a fourth description",clickEvent:sliderClick},
-//     {image:"https://picsum.photos/200/300",title:"This is a fifth title",description:"This is a fifth description",clickEvent:sliderClick},
-//     {image:"https://picsum.photos/800/700",title:"This is a sixth title",description:"This is a sixth description",clickEvent:sliderClick},
-//     {image:"https://picsum.photos/300/400",title:"This is a seventh title",description:"This is a seventh description",clickEvent:sliderClick},
-// ]
+
   return (
     <>
       <div className={styles.container}> 
@@ -36,26 +26,30 @@ const AboutusPage = () => {
             <button style={{ marginLeft:'2rem'}}>Read more</button>
           </div>
         </div>
-        <div style={{textAlign:'center', margin:'4rem', paddingTop:'6rem'}}>
-        <h2>Our Mission</h2>
+        <div className={styles.main}>
         <p>
-          Small and medium businesses should be able to afford high-end
-          technology. Ensure that no one is left out <br/>of digitization due to a
-          lack of IT skills. Make sure all the tools you need are under one roof
-          called Tansy Cloud.  <br/> It will be a continuous process of digitizing more
-          and more business processes in order to boost quality and customer
-          service.
+        Welcome to SEHAT Nutrition, your dedicated partner on the journey to a healthier, happier you. 
+        We go beyond being just a wellness platform; we are your unwavering ally, leveraging personalized guidance, 
+        cutting-edge technology, and steadfast support to transform your well-being.
         </p>
+
+        <h2 className={styles.heading}>Our Vision: Well-being as a Way of Life</h2>
         <p>
-          We help community members launch their software careers as part of our
-          journey to digitize small and <br/> medium businesses. More on this at
-          SEHAT.com
+        At SEHAT Nutrition, we envision a world where well-being isn't just a goal it's a way of life. 
+        Picture families growing closer and healthier, individuals embracing their uniqueness, and 
+        businesses thriving with energized employees. Our vision is to empower everyone to embrace 
+        well-being on their own terms.
+        </p>
+
+        <h2 className={styles.heading}>Our Commitment: Your Well-being Matters</h2>
+        <p>Choosing SEHAT Nutrition means committing to your well-being. We recognize that each person is unique, 
+          so we offer tailored solutions for individuals, families, and businesses. We believe in personalization, 
+          shared experiences, and harnessing the latest technology to elevate your wellness journey.
         </p>
         </div>
 
         <Ourteam />
-
-        
+        <AboutusContent />        
       </div>
     </>
   );
