@@ -4,7 +4,7 @@ import Footer from './components/Header&Footer/Footer'
 import Header from './components/Header&Footer/Header'
 import './globals.css'
 import { Inter } from 'next/font/google'
-import { Auth0Provider } from '@auth0/auth0-react';
+// import { Auth0Provider } from '@auth0/auth0-react';
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -18,18 +18,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-      <Auth0Provider
-        domain="sehat-nutrition.us.auth0.com"
-        clientId="fBik1CI7kj0ZMpNswpne5z6OLAzDx5KD"
-        authorizationParams={{
-        redirect_uri: window.location.origin
-        }}
-      > 
         {/* <Header2></Header2>     */}
         <Header></Header>
         {children}
         <Footer></Footer>
-        </Auth0Provider>,
         </body>
     </html>
   )

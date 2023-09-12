@@ -65,13 +65,13 @@ const Footer = () => {
                             <li className={styles.link_name}>Contact Us</li>
                             <li> 
                                 <MdLocationOn style={{color:'whitesmoke', marginRight:'1rem'}}/>
-                                <a href="#">Address</a></li>                            
+                                <a href="https://goo.gl/maps/pMLudn9mUUqmGVpZ8">R G K Kowkoor, Secunderabad</a></li>                            
                             <li>
                                 <AiFillPhone style={{color:'whitesmoke', marginRight:'1rem'}}/> 
-                            <a href="#">+1 MObile No.</a></li>
+                            <a href="tel:+917880006363">+917880006363</a></li>
                             <li>
                                 <AiOutlineMail style={{color:'whitesmoke', marginRight:'1rem'}}/>
-                                <a href="#">Support@sehatdiets.com</a></li>
+                                <a href="mailto:Support@sehatdiets.com">Support@sehatdiets.com</a></li>
                         </ul>
                         <ul className={`${styles.box} ${styles['input-box']}`}>
                             <li className={styles.link_name}>Subscribe</li>

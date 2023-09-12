@@ -82,10 +82,7 @@ const BillingForm = () => {
     //console.log(stateid);
     setStateid(stateid);
   };
-  // const handleSubmit=(e)=>{
-  // e.preventDefault();
-  // alert("Get Country id"+countryid+ " And "+ stateid);
-  // }
+ 
   // *************Country code ***************************
 
   return (

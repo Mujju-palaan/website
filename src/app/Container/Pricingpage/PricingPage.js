@@ -59,10 +59,10 @@ const PricingPage = () => {
         content6={`Apple/Samsung Kit each`}
         />
       </div>
-      <div className={styles.contact_section}>
+      {/* <div className={styles.contact_section}>
       <h2>Details</h2>
       <BillingForm />
-      </div>
+      </div> */}
 
       <div style={{textAlign:'center', justifyContent:'center', justifyItems:'center', flexDirection:'column',display:'flex'}}>
       {/* <PricingForm /> */}

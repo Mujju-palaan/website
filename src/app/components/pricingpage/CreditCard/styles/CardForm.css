@@ -52,7 +52,7 @@
 	font-size: 1.8rem;
 }
 .cardForm input{
-	padding: 20px;
+	padding: 1.5rem;
 }
 .cardForm input:hover {
 	border: 1px solid hsl(249, 99%, 64%);
@@ -102,6 +102,11 @@
 	color: var(--Red);
 	transform: translateY(-10px);
 	margin: 0;
+}
+.select_country{
+	width: 100%;
+	height: 4rem;
+	padding: 1rem;
 }
 
 

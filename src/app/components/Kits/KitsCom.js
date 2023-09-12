@@ -13,7 +13,7 @@ const KitsCom = (props) => {
         <h2>{props.title}</h2>
         <Link href={`/${props.link}`} onClick={() => setOpenMenu(false)}>
           <div className={styles.explore}>
-            <h3>Explore</h3>
+            <h3>Try Now</h3>
             <FcRight style={{ fontSize: "2rem" }} />
           </div>
         </Link>

@@ -19,12 +19,12 @@ const HomePage = () => {
       <KitsCom
       image='home_applekit.png'
       title='Apple Kit' 
-      link='applekits'
+      link='pricing'
       />
       <KitsCom 
       image='home_applekit.png'
       title='Samsung Kit'
-      link='samsungkit'
+      link='pricing'
       />
       </div>
       

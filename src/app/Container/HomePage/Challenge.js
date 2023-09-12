@@ -23,20 +23,20 @@ const Challenge = () => {
               <div style={{margin:'2rem', marginTop:0}}>
                 <h2>Personalized Nutrition Plan</h2>
                 <div className="imgsettings1"><DietPlan className='dietplansize'></DietPlan></div>
-                <p className="text1">
+                {/* <p className="text1">
                   Etiam sit amet orci eget eros faucibus tincidunt. Sed
                   fringilla mauris sit amet nibh.
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="contentbox">
               <div style={{margin:'2rem', marginTop:0}}>
                 <h2>Personalized Exercise Plan</h2>
                 <div className="imgsettings"><Lady_exersice_onball ></Lady_exersice_onball></div>
-                <p className="text">
+                {/* <p className="text">
                   Etiam sit amet orci eget eros faucibus tincidunt. Sed
                   fringilla mauris sit amet nibh.
-                </p>
+                </p> */}
               </div>
             </div>
           </div>

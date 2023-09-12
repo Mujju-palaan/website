@@ -20,7 +20,6 @@ const HomeSlider = () => {
           autoplay={{
             delay:1000,
             disableOnInteraction: false,
-            onpointerover: stop
           }}
           spaceBetween={20}
           style={{ overflow: "hidden" }}
