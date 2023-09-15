@@ -13,7 +13,10 @@ const Homepage = () => {
       <div className={homestyle.main}>
           <div className={homestyle.imgsec} style={{ 
               backgroundImage: `url("https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/5jm95lgsTsUPz4AkaI3m2H/d19a14d682317b8d5cf6769e1c5dc452/GettyImages-1316646389.jpg?w=1500&h=680&q=60&fit=fill&f=faces&fm=jpg&fl=progressive&auto=format%2Ccompress&dpr=1&w=1000&h=")`  ,
-              backgroundRepeat: 'no-repeat'
+              backgroundRepeat: 'no-repeat',
+              objectFit:'cover',
+              backgroundSize:'cover'
+            
             }}>
             <div className={homestyle.conatiner}>            
               <p style={{backgroundColor: 'black', opacity: '70%', color: 'white', width: 'max-content'}}>
@@ -45,7 +48,7 @@ const Homepage = () => {
         </div>
 
         <div>
-          <img src='/img3.png' height={500} width={500}></img>
+          <img className={homestyle.vector} src='/img3.png' height={500} width={500}></img>
         </div>
 
       </div>

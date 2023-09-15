@@ -1,8 +1,6 @@
 .main {height: 75vh; 
     width: auto;
-
 }
-
 .imgsec{
     height: 90%;
     width: 100%;
@@ -16,14 +14,18 @@
 }
 
 /* ******************************************************** */
-
+.vector{
+    height: 500;
+    width: 600;
+}
 .part1{
     display: flex;
-    padding: 0rem 0 5rem 0;
+    padding-bottom: 2rem;
 }
+
 .part1_content{
     width: 60%;
-    padding: 10rem 4rem 0 20rem;
+    padding: 10rem 4rem 2rem 20rem;
 }
 .part1_content h2{
     font-size: 6rem;
@@ -33,9 +35,41 @@
     color: rgba(47, 45, 46, 0.48);
 }
 
-/* ******************************************************** */
-/* .part2{
-    display: flex;
-    padding: 5rem 0 5rem 0;
-} */
+@media screen and (max-width: 400px) {
+    .part1{
+        display: flex;
+        flex-direction: column;
+    }
+    .part1_content{
+        width: 100%;
+        padding: 0rem 2rem;
+        text-align: center;
+    }
+    .part1_content h2{
+        font-size: 2rem;
+        padding-bottom: 0rem;
+        text-align: center;
+    }
+    .part1_content p{
+        margin: 0%;
+        font-size: 2rem;
+        color: rgba(47, 45, 46, 0.48);
+    }
+    .vector{
+        text-align: center;
+        padding: 2rem;
+        height: 30rem;
+        width: 35rem;
+    }
+}
+@media screen and (max-width: 585px) {
 
+}
+
+@media screen and (max-width: 750px) {
+
+}
+
+@media screen and (min-width: 1350px) {
+
+}
