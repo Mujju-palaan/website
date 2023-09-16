@@ -1,6 +1,6 @@
 .main{
     display: flex;
-}
+}   
 .content{
     width: 60%;
     padding: 5rem 8rem 0 16rem;
@@ -20,12 +20,41 @@
 .btn{
     padding: 5rem 0 0 0;
 }
-
-.img img{
+.img {
     text-align: center;
     border-radius: 20px;
+    object-fit: cover;
+        height: 400px;
+        width: 600px;
 }
-
+@media screen and (max-width: 400px) {
+    .main{
+        flex-direction: column;
+    }   
+    .content{
+        width: 100%;
+        padding: 0rem 1rem 0 1rem;
+        text-align: center;
+    }
+    .content p{
+        margin: 0%;
+    }
+    .content h2{
+        font-size: 3rem;
+    }
+    .content p1{
+        color: grey;
+        font-size: 2rem;
+    }
+    .btn{
+        padding: 1rem 0 0 0;
+    }
+    .img{
+        object-fit: cover;
+        height: 200px;
+        width: 350px;
+    }
+}
 @media screen and (max-width: 585px) {
 
 }

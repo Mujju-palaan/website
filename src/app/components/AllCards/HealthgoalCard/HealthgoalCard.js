@@ -1,6 +1,6 @@
 import styles from './HealthgoalCard.module.css'
 import Link from "next/link";
-import { useState } from "react";
+import { useState } from "react";   
 
 const HealthgoalCard = () => {
     const [openMenu, setOpenMenu] = useState(false);
@@ -18,8 +18,8 @@ const HealthgoalCard = () => {
                     
                 </div>    
             </div>
-            <div className={styles.img}>
-                <img src='/img4.jpg' height={400} width={600}></img>
+            <div style={{textAlign:'center'}}>
+                <img className={styles.img} src='/img4.jpg'></img>
             </div>
         </div>
     </>

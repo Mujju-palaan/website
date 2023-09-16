@@ -27,7 +27,6 @@ const Ourteam = () => {
           autoplay={{
             delay:1000,
             disableOnInteraction: false,
-            onpointerover: stop
           }}
           spaceBetween={150}
           style={{ overflow: "hidden" }}

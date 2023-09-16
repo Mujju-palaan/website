@@ -11,11 +11,10 @@ const HomePage = () => {
     <>
       <Homepage></Homepage>
       <h2 style={{ textAlign: "center" }}>Achieve Your Health Goals</h2>
-      <div style={{ displayL: "flex", padding: "5rem 0 5rem 0" }}>
+      <div style={{ padding: "5rem 0 5rem 0" }}>
         <HealthgoalCard></HealthgoalCard>
       </div>
-      <div style={{ displayL: "flex", padding: "5rem 0 5rem 0",textAlign: "center", justifyContent:'center', justifyItems:'center', 
-      display:'flex', gap:'4rem' }}>
+      <div className='Kits' style={{textAlign:'center', justifyContent:'center'}}>
       <KitsCom
       image='home_applekit.png'
       title='Apple Kit' 
@@ -29,7 +28,7 @@ const HomePage = () => {
       </div>
       
 
-      <h1 style={{ textAlign: "center" }}>Our Programs</h1>
+      <h1 className='h2'>Our Programs</h1>
 
       {/* ********************SLIDERS************************************ */}
       <HomeSlider />

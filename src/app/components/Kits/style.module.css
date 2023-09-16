@@ -10,15 +10,12 @@
     transform: scale(1.05);
     border: 1px solid #3d3d6b;
     }
-
 .imgsize{
     object-fit: cover;
     height: 30rem;
     width: auto;
     border-radius: 8px;
 }
-
-
 .explore{
         grid-column-gap: 9px;
         grid-row-gap: 9px;
@@ -40,9 +37,7 @@
         display: flex;
         
 }
-
-
-/* ****************************************************** */
+/* *****************KITS img CARD************************************* */ 
 
 .imgsize1{
     object-fit: cover;
@@ -50,7 +45,6 @@
     width: 36rem;
     border-radius: 8px;
 }
-
 .container1{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;    
     max-width: 36rem;
@@ -64,3 +58,33 @@
     transform: scale(1.05);
     border: 1px solid #3d3d6b;
     } */
+@media screen and (max-width: 400px) {	
+	.container{
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;    
+        max-width: 30rem;
+        min-width: 30rem;
+        height: auto;
+        border-radius: 8px;
+        transition: transform 0.5s;
+    }
+    .container h2{
+        margin: 0%;
+    }
+    .imgsize{
+        object-fit: cover;
+        height: 30rem;
+        width: 30rem;
+        border-radius: 8px;
+    }
+}
+@media screen and (max-width: 585px) {	
+	
+}	
+	
+@media screen and (max-width: 750px) {	
+	
+}	
+	
+@media screen and (min-width: 1350px) {	
+	
+}	

@@ -211,7 +211,7 @@ html {
   padding-top: 2rem;
 }
 
-.imgsettings1{
+.imgsettings1{  
   top: -8rem;
   /* bottom: -10rem; */
   position: relative;
@@ -241,3 +241,37 @@ html {
   top: -6rem;
   position: relative;
 }
+.Kits{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  gap: 4rem;
+  padding: 5rem 0;
+}
+
+@media screen and (max-width: 400px) {	
+	.Kits{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 2rem 0rem 0rem 4rem;
+  }  
+  .h2{
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 4rem ;
+  }
+}
+@media screen and (max-width: 585px) {	
+	
+}	
+	
+@media screen and (max-width: 750px) {	
+	
+}	
+	
+@media screen and (min-width: 1350px) {	
+	
+}	
